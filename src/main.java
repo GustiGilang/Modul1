@@ -19,6 +19,24 @@ public class main {
         System.out.println(uniskaChar);
         System.out.println(uniskaString);
 
+        String namaLengkap = namaDepan + namaTengah + namaBelakang;
+        System.out.println (namaLengkap);
+        System.out.println (namaLengkap.length());
+        System.out.println (namaLengkap.indexOf("lang"));
+        System.out.println (namaLengkap.substring(17));
+        System.out.println (namaLengkap.substring(5,11));
+        System.out.println (namaLengkap.replace("Gilang","Iyang"));
+        System.out.println (namaLengkap.toLowerCase());
+        System.out.println (namaLengkap.toUpperCase());
+        System.out.println (namaLengkap.length());
+        System.out.println (namaLengkap.charAt(0));
+
+        String[] namaArray = namaLengkap.split(" ");
+
+        for (String nama : namaArray)
+            System.out.println(nama);
+
+
 
     }
 }
